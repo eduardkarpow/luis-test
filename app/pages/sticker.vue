@@ -9,7 +9,6 @@
 
                 <div v-for="n in 50" :key="n" class="mb-6">
                     <UCard :key="n" class="mb-4" style="min-height: 100px;">
-                        <!-- Placeholder heading and body text -->
                         <div class="flex items-center gap-4">
                             <USkeleton class="h-12 w-12 rounded-full" style="height: 3rem; width: 3rem;" />
                             <div class="flex-1 space-y-2">
