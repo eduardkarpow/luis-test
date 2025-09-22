@@ -24,7 +24,8 @@
 <style lang="scss" scoped>
 .container {
     position: fixed;
-    top: calc(50vh - 100px);
+    top: calc(50vh - 133px);
+    bottom: 50vh;
     right: 0;
     height: 266px;
     width: 68px;
@@ -34,6 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .title {
@@ -88,6 +90,7 @@
     cursor: pointer;
     position: absolute;
     opacity: 0;
+    box-shadow: 0px 4px 20px 0px #7373731A;
 }
 
 .arrow {
@@ -114,7 +117,9 @@
     animation-duration: .4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-left: 11px;
 }
 
 .container:hover>.images>.image__item:first-child {

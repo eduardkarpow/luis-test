@@ -1,12 +1,12 @@
 <template>
-    <div class="container">
+    <div class="wrapper">
         <NuxtLink class="link" to="sticker">To sticker →</NuxtLink>
     </div>
 </template>
 
 <style lang="scss" scoped>
-    .container {
-        width: 100%;
+    .wrapper {
+        width: 100vw;
         height: 100vh;
         display: flex;
         justify-content: center;
